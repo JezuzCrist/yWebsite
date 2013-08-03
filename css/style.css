@@ -38,7 +38,7 @@ body
 {
 	margin-top: 15px;
 }
-#content
+#contentContainer
 {
 	padding-top: 10px;
 	background-color: #CBCBCB;
@@ -92,27 +92,32 @@ body
 {
 	display: inline-block;
 	color: #666666;
-
 }
 
+#NavBar .Item
+{
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+}
 
 #NavBar .seperator_light
 {
-	height: 24px;
+	height: 30px;
 	width: 1px;
 	background-color: #edecec;
 	display: inline-block;
 	/*margin-right: -4px;*/
-	margin-bottom: -4px;
+	margin-bottom: -9px;
 }
 #NavBar .seperator_dark
 {
-	height: 24px;
+	height: 30px;
 	width: 1px;
 	display: inline-block;
 	background-color: #cdcdcd;
 	margin-right: -6px;
-	margin-bottom: -4px;
+	margin-bottom: -9px;
 }
 
 #Sidebar
@@ -123,13 +128,63 @@ body
 	width: 200px;
 	position: absolute;
 	top: 0px;
-	padding-bottom: 50px;
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
-#content #InnerTitle
+#Sidebar .seperator
+{
+	background-color: #c2c2c2;
+	height: 1px;
+	margin: 5px;
+
+}
+#Sidebar .Item
+{
+	color: #6d6d6d;
+	margin-bottom: 5px;
+}
+#Sidebar .selected
+{
+	color: #5868b9;
+	font-weight: bold;
+}
+
+
+#contentContainer #InnerTitle
 {
 	background-color: #7b7b7b;
-	height: 75px;
+	height: 80px;
 	border-radius: 5px;
 	padding-right: 210px;
 	margin-left: 10px;
+}
+#contentContainer #InnerTitle #Title
+{
+	color: #75c0fc;
+	display: block;
+	text-align: right;
+	font-size: 20px;
+	padding-top: 5px;
+}
+
+#contentContainer #InnerTitle #SemiTitle
+{
+	color: #cac6c6;
+	display: block;
+	text-align: right;
+	font-size: 16px;
+	padding-top: 5px;
+	padding-right: 120px;
+}
+
+#contentContainer #PageContent
+{
+	background-color: white;
+	margin-right: 240px;
+	margin-left: 40px;
+	border-radius: 5px;
+	margin-top: -20px;
+	padding: 20px;
+	padding-top: 30px;
+	text-align: right;
 }
