@@ -71,7 +71,7 @@ body
 #NavBar
 {	margin-left: auto;
 	margin-right: auto;
-	width:750px;
+	width:760px;
 	background-color: red;
 	margin-bottom: 30px;
 	margin-top: 25px;
@@ -101,6 +101,17 @@ body
 	padding-bottom: 5px;
 }
 
+#NavBar .Selected 
+{
+	font-size: 18px;
+}
+
+#NavBar .Item:hover
+{
+	color: #868686;
+	text-shadow: 2px 2px 2px #FFF;
+	cursor: pointer;
+}
 #NavBar .seperator_light
 {
 	height: 30px;
